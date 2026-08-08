@@ -14,7 +14,7 @@ as it actually is, while making the site itself easier to read earlier or later 
 | File | What it is |
 |---|---|
 | `telath.css` | Custom properties plus base type and colors. |
-| `Telath Brand Guidelines` | The guidelines document that includes color palette, type, wordmark, sigils, iconography, imagery, interface parts, do's/dont's. |
+| `Telath Brand` | The guidelines document that includes color palette, type, wordmark, sigils, iconography, imagery, interface parts, do's/dont's. |
 | `Initial Designs` | Various pages and components used by the game and its players, offered as both images and Figma files with components. |
 | `uploads/` | Source artwork such as region arms as vectors and restyled world maps or wiki assets. |
 
