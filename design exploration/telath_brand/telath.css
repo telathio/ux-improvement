@@ -1,0 +1,34 @@
+/* ==========================================================================
+   Telath — primary brand stylesheet
+   ========================================================================== */
+
+:root {
+  /* --- Ground (near-neutral graphite: a trace of blue, never a color) ---- */
+  --tel-void: #0d0e12; /* deepest ground: masthead, footer, overlays   */
+  --tel-page: #131418; /* default page background                      */
+  --tel-keep: #1b1c21; /* raised surface: cards, posts, inputs         */
+  --tel-hairline: #2a2b31; /* 1px separators — never thicker               */
+  --tel-granite: #45464e; /* structural lines, muted marks, disabled      */
+
+  /* --- Light ------------------------------------------------------------ */
+  --tel-wardlight: #8fb7d9; /* THE interactive color. Links, focus, active */
+  --tel-sigil: #a894d9; /* magic + canon events ONLY. Never decoration  */
+
+  /* --- Text ------------------------------------------------------------- */
+  --tel-text: #edeef1; /* headings, player prose                       */
+  --tel-body: #d2d4da; /* long-form body                               */
+  --tel-muted: #93969f; /* secondary UI copy                            */
+  --tel-faint: #888b95; /* labels, timestamps, system voice. The dimmest
+                               text allowed: clears AA on the page ground AND
+                               on the raised keep surface. Never go lower.  */
+
+  /* --- Type ------------------------------------------------------------- */
+  --tel-serif: "EB Garamond", Georgia, serif; /* world  */
+  --tel-sans: "Public Sans", system-ui, sans-serif; /* tool   */
+  --tel-mono: "IBM Plex Mono", ui-monospace, monospace; /* system voice */
+
+  /* --- Rhythm ----------------------------------------------------------- */
+  --tel-measure: 68ch; /* max line length for prose, though initial tests show players prefer full-width */
+  --tel-radius: 0; /* the world is carved, not rounded */
+  --tel-gap: 8px; /* spacing unit: 8 / 16 / 24 / 40 / 64 */
+}
